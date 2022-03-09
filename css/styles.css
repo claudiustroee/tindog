@@ -1,0 +1,181 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  color: white;
+  font-size: 3rem;
+  line-height: 1.4;
+}
+
+.section-heading {
+  font-size: 2.6rem;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 8% 15%
+}
+
+/* Sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+white-section{
+  background-color: white;
+}
+
+/* Download Buttons */
+
+.downlad-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title section */
+
+#title .container-fluid{
+  padding: 3% 16% 8%;
+  text-align: left;
+}
+
+/* Title image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: relative;
+  right: 5%;
+}
+
+/* Features Section */
+
+#features {
+
+  position: relative;
+}
+
+.feature-title {
+  color: black;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  line-height: 1.5;
+}
+
+.feature-box {
+  margin: 4% 0%;
+  list-style: none;
+  padding: 5%;
+}
+
+.feature-icon {
+  color: #ef8172;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #7c4cff;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 2.6rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 20px;
+  width: 20%;
+}
+
+#press {
+  background-color: #ef8172;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+
+#pricing {
+  padding: 80px;
+}
+
+.price-text {
+  font-size: 2.6rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+/* Footer section */
+
+#footer {
+  background-color: white;
+}
+
+.footer-icon {
+  margin: 2% 1%;
+}
